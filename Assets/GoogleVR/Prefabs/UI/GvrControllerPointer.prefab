@@ -48,7 +48,6 @@ GameObject:
   - 222: {fileID: 2034312771}
   - 114: {fileID: 1470308967}
   - 114: {fileID: 890456865}
-  - 114: {fileID: 613255754}
   m_Layer: 0
   m_Name: AppButtonOutsideText
   m_TagString: Untagged
@@ -242,19 +241,6 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!114 &333879477
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1306407763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 0
 --- !u!222 &352752985
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -276,19 +262,6 @@ Transform:
   - {fileID: 1778255958}
   m_Father: {fileID: 1990110266}
   m_RootOrder: 0
---- !u!114 &374009402
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 389865335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 0
 --- !u!114 &384145178
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -358,7 +331,6 @@ GameObject:
   - 222: {fileID: 1484653898}
   - 114: {fileID: 1659338195}
   - 114: {fileID: 402694668}
-  - 114: {fileID: 374009402}
   m_Layer: 0
   m_Name: TouchPadInsideText
   m_TagString: Untagged
@@ -410,7 +382,6 @@ GameObject:
   - 222: {fileID: 1008060860}
   - 114: {fileID: 253731173}
   - 114: {fileID: 1807696044}
-  - 114: {fileID: 1115901730}
   m_Layer: 0
   m_Name: AppButtonInsideText
   m_TagString: Untagged
@@ -654,19 +625,6 @@ RectTransform:
   m_AnchoredPosition: {x: 5, y: 0.5}
   m_SizeDelta: {x: 0, y: 75}
   m_Pivot: {x: 0, y: 0.5}
---- !u!114 &613255754
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 73773011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 0
 --- !u!225 &622191657
 CanvasGroup:
   m_ObjectHideFlags: 1
@@ -1008,19 +966,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &1115901730
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 407188660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 0
 --- !u!224 &1124067406
 RectTransform:
   m_ObjectHideFlags: 1
@@ -1163,7 +1108,6 @@ GameObject:
   - 222: {fileID: 463403537}
   - 114: {fileID: 877083845}
   - 114: {fileID: 1444407016}
-  - 114: {fileID: 333879477}
   m_Layer: 0
   m_Name: TouchPadOutsideText
   m_TagString: Untagged
