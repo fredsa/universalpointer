@@ -434,6 +434,76 @@ MonoBehaviour:
   verbose: 0
   createComponents: 1
   updateDynamically: 1
+--- !u!1 &496227275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1225896218, guid: 34c21f523e72f45509a4e37ed0293c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 496227276}
+  - 33: {fileID: 496227278}
+  - 23: {fileID: 496227277}
+  m_Layer: 2
+  m_Name: Reticle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &496227276
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1412694727, guid: 34c21f523e72f45509a4e37ed0293c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 496227275}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1308713904}
+  m_RootOrder: 1
+--- !u!23 &496227277
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 225929234, guid: 34c21f523e72f45509a4e37ed0293c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 496227275}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ebbccbcf1451ddf4199eab062dc6d367, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &496227278
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1583549455, guid: 34c21f523e72f45509a4e37ed0293c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 496227275}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &505074192
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,6 +669,76 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bdfa3f7068c2794e9aed800d5de96d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &559423938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1225896218, guid: 34c21f523e72f45509a4e37ed0293c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 559423939}
+  - 33: {fileID: 559423941}
+  - 23: {fileID: 559423940}
+  m_Layer: 2
+  m_Name: Reticle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &559423939
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1412694727, guid: 34c21f523e72f45509a4e37ed0293c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559423938}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1184670488}
+  m_RootOrder: 1
+--- !u!23 &559423940
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 225929234, guid: 34c21f523e72f45509a4e37ed0293c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559423938}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ebbccbcf1451ddf4199eab062dc6d367, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &559423941
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1583549455, guid: 34c21f523e72f45509a4e37ed0293c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559423938}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &696298571
 Prefab:
   m_ObjectHideFlags: 0
@@ -1138,13 +1278,14 @@ GameObject:
   - 4: {fileID: 1184670488}
   - 114: {fileID: 1184670489}
   - 120: {fileID: 1184670490}
+  - 114: {fileID: 1184670491}
   m_Layer: 0
   m_Name: Steam VR Controller (left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1184670488
 Transform:
   m_ObjectHideFlags: 0
@@ -1157,6 +1298,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 62561590}
+  - {fileID: 559423939}
   m_Father: {fileID: 314284532}
   m_RootOrder: 0
 --- !u!114 &1184670489
@@ -1211,11 +1353,26 @@ LineRenderer:
     endWidth: 0.01
     m_StartColor:
       serializedVersion: 2
-      rgba: 4294967295
+      rgba: 4278190335
     m_EndColor:
       serializedVersion: 2
-      rgba: 4294967295
-  m_UseWorldSpace: 0
+      rgba: 4278190335
+  m_UseWorldSpace: 1
+--- !u!114 &1184670491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1184670487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 420b3b33be37a1b449b2e08f5bc7f2b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserColor: {r: 1, g: 0, b: 0, a: 1}
+  maxLaserDistance: 10
+  maxReticleDistance: 10
+  reticle: {fileID: 559423938}
 --- !u!4 &1252676584 stripped
 Transform:
   m_PrefabParentObject: {fileID: 498412, guid: 970dd4b9371394fb4890965f608d46fd, type: 2}
@@ -1230,13 +1387,14 @@ GameObject:
   - 4: {fileID: 1308713904}
   - 114: {fileID: 1308713905}
   - 120: {fileID: 1308713906}
+  - 114: {fileID: 1308713907}
   m_Layer: 0
   m_Name: Steam VR Controller (right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1308713904
 Transform:
   m_ObjectHideFlags: 0
@@ -1249,6 +1407,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 335081847}
+  - {fileID: 496227276}
   m_Father: {fileID: 314284532}
   m_RootOrder: 1
 --- !u!114 &1308713905
@@ -1303,11 +1462,26 @@ LineRenderer:
     endWidth: 0.01
     m_StartColor:
       serializedVersion: 2
-      rgba: 4294967295
+      rgba: 4278190335
     m_EndColor:
       serializedVersion: 2
-      rgba: 4294967295
-  m_UseWorldSpace: 0
+      rgba: 4278190335
+  m_UseWorldSpace: 1
+--- !u!114 &1308713907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1308713903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 420b3b33be37a1b449b2e08f5bc7f2b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserColor: {r: 1, g: 0, b: 0, a: 1}
+  maxLaserDistance: 10
+  maxReticleDistance: 10
+  reticle: {fileID: 496227275}
 --- !u!1 &1332093358
 GameObject:
   m_ObjectHideFlags: 0
