@@ -888,6 +888,7 @@ GameObject:
   - 223: {fileID: 1724199548}
   - 114: {fileID: 1724199547}
   - 114: {fileID: 1724199546}
+  - 114: {fileID: 1724199550}
   m_Layer: 5
   m_Name: World Space Canvas
   m_TagString: Untagged
@@ -901,7 +902,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1724199545}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -970,6 +971,23 @@ RectTransform:
   m_AnchoredPosition: {x: 2.48, y: 1.45}
   m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1724199550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1724199545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739800cd36aba44e9b04ce977e5784bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raycastMode: 0
+  ignoreReversedGraphics: 1
+  blockingObjects: 0
+  blockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &1746929395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,9 +1296,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1935298025}
   - 20: {fileID: 1935298024}
-  - 92: {fileID: 1935298023}
-  - 124: {fileID: 1935298022}
   - 81: {fileID: 1935298021}
+  - 114: {fileID: 1935298023}
+  - 114: {fileID: 1935298022}
   - 114: {fileID: 1935298026}
   m_Layer: 0
   m_Name: Main Camera
@@ -1296,20 +1314,36 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1935298020}
   m_Enabled: 1
---- !u!124 &1935298022
-Behaviour:
+--- !u!114 &1935298022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935298020}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -768656878, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1935298023
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1935298020}
   m_Enabled: 1
---- !u!92 &1935298023
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1935298020}
-  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1156c073149742478887bb24456f32d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGainDb: 0
+  occlusionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  quality: 2
 --- !u!20 &1935298024
 Camera:
   m_ObjectHideFlags: 0
