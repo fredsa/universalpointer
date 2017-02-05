@@ -80,7 +80,7 @@ public class GvrCompatibilityChecker {
   private static string OK_BUTTON = "OK";
   private static string REMOVE_FILES_BUTTON = "Remove Files";
 
-// Only check compability when current build platform is mobile
+// Only perform compatibility check if current build platform is Android or iOS.
 #if UNITY_ANDROID || UNITY_IOS
   static GvrCompatibilityChecker() {
 // No need to run the backwards compatibility checker GVR is natively integrated into Unity.
